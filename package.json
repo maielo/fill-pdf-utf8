@@ -1,6 +1,6 @@
 {
-  "name": "fill-pdf-utf8",
-  "version": "2.1.2",
+  "name": "@vicoders/fill-pdf-utf8",
+  "version": "1.0.0",
   "description": "use nodejs to fill pdf form,it supports utf8 character",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jay763190097/fill-pdf-utf8.git"
+    "url": "git+https://github.com/hieu-pv/fill-pdf-utf8.git"
   },
   "keywords": [
     "pdf",
@@ -21,9 +21,9 @@
   "author": "jay <jiangmang.1992@163.com> (https://github.com/jay763190097)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jay763190097/fill-pdf-utf8/issues"
+    "url": "https://github.com/hieu-pv/fill-pdf-utf8/issues"
   },
-  "homepage": "https://github.com/jay763190097/fill-pdf-utf8#readme",
+  "homepage": "https://github.com/hieu-pv/fill-pdf-utf8#readme",
   "dependencies": {
     "lodash": "^3.2.0",
     "xmlbuilder": "^2.5.1"
