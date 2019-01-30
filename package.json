@@ -1,15 +1,49 @@
 {
-  "name": "@vicoders/fill-pdf-utf8",
-  "version": "1.0.0",
+  "_from": "fill-pdf-utf8",
+  "_id": "fill-pdf-utf8@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-u4JDZVbcpbu7pkpvZfjANU2uYzk=",
+  "_location": "/fill-pdf-utf8",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fill-pdf-utf8",
+    "name": "fill-pdf-utf8",
+    "escapedName": "fill-pdf-utf8",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fill-pdf-utf8/-/fill-pdf-utf8-2.1.1.tgz",
+  "_shasum": "bb82436556dca5bbbba64a6f65f8c0354dae6339",
+  "_spec": "fill-pdf-utf8",
+  "_where": "C:\\Users\\Administrator\\Desktop\\dev-vicoders\\NodeServer",
+  "author": {
+    "name": "jay",
+    "email": "jiangmang.1992@163.com",
+    "url": "https://github.com/jay763190097"
+  },
+  "bugs": {
+    "url": "https://github.com/jay763190097/fill-pdf-utf8/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^3.2.0",
+    "xmlbuilder": "^2.5.1"
+  },
+  "deprecated": false,
   "description": "use nodejs to fill pdf form,it supports utf8 character",
-  "main": "index.js",
-  "scripts": {
-    "test": "node ./test/test-fill-pdf-utf8.js"
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0",
+    "xml2js": "^0.4.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hieu-pv/fill-pdf-utf8.git"
-  },
+  "homepage": "https://github.com/jay763190097/fill-pdf-utf8#readme",
   "keywords": [
     "pdf",
     "xfdf",
@@ -18,19 +52,15 @@
     "itext",
     "abobe"
   ],
-  "author": "jay <jiangmang.1992@163.com> (https://github.com/jay763190097)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hieu-pv/fill-pdf-utf8/issues"
+  "main": "index.js",
+  "name": "@vicoders/fill-pdf-utf8",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay763190097/fill-pdf-utf8.git"
   },
-  "homepage": "https://github.com/hieu-pv/fill-pdf-utf8#readme",
-  "dependencies": {
-    "lodash": "^3.2.0",
-    "xmlbuilder": "^2.5.1"
+  "scripts": {
+    "test": "node ./test/test-fill-pdf-utf8.js"
   },
-  "devDependencies": {
-    "mocha": "^2.1.0",
-    "should": "^5.0.0",
-    "xml2js": "^0.4.5"
-  }
+  "version": "2.0.0"
 }
