@@ -13,7 +13,7 @@ exports.generatePdf = function(data, templatePath, extendArgs, outputFile, callb
     generatorXFdf(data,templatePath,outputFile,function (err) {
         if(err)
             throw err;
-        let processArgs = [templatePath,'fontPath',path.dirname(__filename)+path.sep+'lib'+path.sep+'seguisb.ttf','fill_form','-', 'output','-','flatten','<'+outputFile.substring(0,outputFile.lastIndexOf('.'))+'.xfdf'+'>', outputFile];
+        let processArgs = [templatePath,'fontPath',path.dirname(__filename)+path.sep+'lib'+path.sep+'arialbd.ttf','fill_form','-', 'output','-','flatten','<'+outputFile.substring(0,outputFile.lastIndexOf('.'))+'.xfdf'+'>', outputFile];
         if(typeof extendArgs === 'object') {
             for(let i in extendArgs) {
                 processArgs.push(i);
